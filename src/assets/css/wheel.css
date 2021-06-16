@@ -1,0 +1,196 @@
+.wheel{
+  width:100%;
+  display: block;
+  position: relative;
+  z-index: 0;
+  transition: 4.5s;
+}
+.ball{
+z-index: 1;
+display: block;
+position: absolute;
+width:100%;
+transition: 5s;
+}
+
+.buy_btn {
+z-index: 0;
+display: inline-block;
+margin: 1%;
+}
+
+.table {
+padding: 1%;
+/* background: #262b35; */
+border-radius: 4px;
+display: block;
+}
+
+.win_num {
+z-index: 1;
+display: none;
+position: absolute;
+/* #c53224 red */
+/* #130f0f black */
+/* #198b1f green */
+/* background:#c53224; */ 
+font-size: 25px;
+color: rgb(230, 226, 225);
+border-radius: 50%;
+padding: 28px;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+/*left: 39.5%;
+top: 240px;*/
+}
+
+@keyframes view {
+from { 
+  opacity: 0;  
+}
+to {
+  opacity: 1; 
+}
+}
+
+
+
+.itemWrapper {
+display: inline-block;
+margin: 0 2px;
+background: rgba(0,0,0,.1);
+border-radius: 6px;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+.itemWrapper .itemBid {
+border-radius: 6px;
+background: #34495e;
+width: 21vw;
+}
+.itemWrapper .bet {
+/* margin: 4px 0 2px; */
+text-align: center;
+font-size: 14px;
+font-weight: 600;
+/*     color: #ecf0f1; */
+background-color: #262b35;
+padding:5px 0;
+border-radius: 0 0 5px 5px;
+}
+.itemWrapper .itemBid div {
+width: 100%;
+/* height: 100%; */
+font-size: 18px;
+text-align: center;
+line-height: 42px;
+font-weight: 300;
+vertical-align: middle;
+margin:0;
+padding: 0;
+}
+
+.itemWrapper .itemBid {
+border-radius: 6px 6px 0 0;
+background: #34495e;
+width: 21vw;
+text-align:center;
+}
+
+.type-red {
+/* margin-left: -23%; */
+border-radius: 6px 6px 0 0;
+color: rgb(232,76,61);
+}
+
+.type-black {
+/* margin-left: -23%; */
+border-radius: 6px 6px 0 0;
+color: rgb(121,138,148);
+}
+
+.type-zero {
+/* margin-left: -23%; */
+border-radius: 6px 6px 0 0;
+color: #198b1f;
+}
+
+
+.my_bids {
+/* display: inline-block; */
+text-align: center;
+}
+
+.win {
+  background-color: rgb(27,188,155) !important;
+}
+
+.loose {
+  background-color: rgb(232,76,61)  !important;
+}
+.itemWrapper2 {
+margin:10px 0;
+display: inline-block;
+background: rgba(0,0,0,.1);
+/*     border-radius: 6px; */
+width:100%;
+
+}
+.itemWrapper2 .item2{
+width:95%;
+margin:0 auto;
+text-align:center;
+background:#08af85;
+font-size: 20px;
+font-weight: 500;
+padding: 5px 0;
+border-radius: 10px 10px 0 0 ;
+}
+.bidsScroll{
+width:95%;
+margin:0 auto;
+text-align: center;
+border-radius: 0 0  10px 10px;
+background-color: #2c3e50;
+}
+.tabelLabel{
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+
+}
+.noBids{
+padding:10px 0;
+}
+/*.wheel_anim {
+animation: rotate 3s ease-in-out;
+}*/
+
+/*.ball_anim {
+animation: rotate2 3s ease-in-out;
+animation-fill-mode:forwards
+}*/
+
+/*@keyframes rotate2 {
+/*
+выпало число под индексом k влево, k = {0 ,..., 36}
+
+from { 
+  transform: rotate(0deg);
+}
+to {
+  /*
+  deg = -360 + (-10*k + k div 3 - k div 15)
+  
+  transform: rotate(-710deg);
+
+}
+}*/
+/*@keyframes rotate {
+  from { 
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(720deg);
+    
+  }
+}*/

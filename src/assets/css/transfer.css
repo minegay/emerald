@@ -1,0 +1,17 @@
+.addMoney{
+    color:#4fbd5c;
+    font-size: 18px;
+    font-weight: 800;
+    /* padding-top:4px; */
+}
+.withdrawalMoney{
+    color:#e64646;
+    font-size: 18px;
+    font-weight: 800;
+}
+.dateTransfer{
+    text-align: end;
+    float: right;
+    padding-top:8px;
+    font-size:11px;
+}

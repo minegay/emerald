@@ -1,0 +1,68 @@
+.tabIt{
+    width:40px;
+}
+.prefix_admin{
+    display: inline-block;
+    color:white;
+    margin-left:8px;
+    border-radius: 4px;
+    background: #658e5b;
+    padding: 0 8px;
+    font-size: 11.5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+   
+}
+.prefix_red{
+    display: inline-block;
+    color:white;
+    margin-left:8px;
+    border-radius: 4px;
+    background: rgb(232,76,61)  ;
+    padding: 0 8px;
+    font-size: 11.5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.prefix_common{
+    display: inline-block;
+    color:white;
+    margin-left:8px;
+    border-radius: 4px;
+    background: #517e94;
+    padding: 0 8px;
+    font-size: 11.5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.prefix_cat{
+    margin-left:5px;
+    vertical-align: bottom;
+    margin-bottom: 1px;
+    width: 18px;
+    height: 18px;
+}
+.scam{
+    display: inline-block;
+    color:rgb(224, 107, 107);;
+    margin-left:8px;
+    border-radius: 4px;
+    /* background: #517e94; */
+    border:1px solid rgb(224, 107, 107);
+    padding: 0 8px;
+    font-size: 11.5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.gold{
+    display: inline-block;
+    color:#ffd700;
+    margin-left:8px;
+    border-radius: 4px;
+    /* background: #517e94; */
+    border:1px solid #ffd700;
+    padding: 0 8px;
+    font-size: 11.5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}

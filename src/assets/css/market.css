@@ -1,0 +1,16 @@
+.verifiedIMG{
+    width:16px;
+    vertical-align: middle;
+}
+
+.search {
+    display: flex;
+}
+
+#traderID {
+    width: 300px;
+    /* margin-right: 5px !important; */
+}
+.searchBtn{
+    width: 10px;
+}

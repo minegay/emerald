@@ -1,0 +1,15 @@
+#wraper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+   height:80vh;
+}
+#wraper img{
+    width:200px;
+}
+.reason_ban{
+    margin-top:25px;
+    text-align: center;
+    font-size: large;
+}

@@ -1,0 +1,28 @@
+.firstCard{
+    margin-top:10px;
+}
+.card{
+    text-align: center;
+    vertical-align: bottom;
+}
+.outcard{
+    /* width:100%; */
+    height: 100%;
+}
+.card span{
+    margin-top: 10px;
+}
+.NowAva .Avatar__img{
+    background: none !important;
+}
+.NowAva .Avatar__shadow{
+    box-shadow:none !important;
+}
+.NowAva .Banner__before{
+    display: flex;
+    align-items: center;
+}
+.NowAva{
+    padding:0 !important;
+    margin:0 !important;
+}
